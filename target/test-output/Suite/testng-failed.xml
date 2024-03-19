@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="subit Order Test(failed)">
+    <classes>
+      <class name="rahulShettyTest.test.submitOrderTest">
+        <methods>
+          <include name="SubmitOrder"/>
+          <include name="tearDown"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- rahulShettyTest.test.submitOrderTest -->
+    </classes>
+  </test> <!-- subit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
